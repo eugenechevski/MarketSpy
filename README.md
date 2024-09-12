@@ -20,7 +20,6 @@
 - **Maven** (build tool)
 - **GraphQL** (for efficient data querying)
 - **Azure SQL Database**
-- **Docker** (for containerization)
 
 ### Frontend
 - **Angular**
@@ -34,8 +33,7 @@
 - **Alpha Vantage API** (for financial data)
 
 ## Deployment and Hosting
-- **Netlify** (for frontend hosting)
-- **Azure** (for backend services and database)
+- **Azure** (for hosting, backend services, and database)
 
 ## Development Tools
 - **JIRA** (for project management and issue tracking)
