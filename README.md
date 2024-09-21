@@ -20,6 +20,7 @@
 - **Maven** (build tool)
 - **GraphQL** (for efficient data querying)
 - **Azure SQL Database**
+- **Docker** (for containerization)
 
 ### Frontend
 - **Angular**
