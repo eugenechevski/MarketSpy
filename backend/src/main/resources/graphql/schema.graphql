@@ -1,0 +1,23 @@
+type Query {
+  getMarketData(id: ID!): MarketData
+  getPortfolio(id: ID!): Portfolio
+}
+
+type MarketData {
+  id: ID
+  name: String
+  price: Float
+  timestamp: String
+}
+
+type Portfolio {
+  id: ID
+  name: String
+  assets: [Asset]
+}
+
+type Asset {
+  name: String
+  quantity: Int
+  currentPrice: Float
+}
