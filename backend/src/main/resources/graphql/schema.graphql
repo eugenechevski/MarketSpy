@@ -1,6 +1,7 @@
 type Query {
   getMarketData(id: ID!): MarketData
   getPortfolio(id: ID!): Portfolio
+  getNewsFeed: [NewsFeed]
 }
 
 type MarketData {
@@ -21,3 +22,17 @@ type Asset {
   quantity: Int
   currentPrice: Float
 }
+
+type NewsFeed {
+  id: ID
+  title: String
+  url: String
+  timePublished: String
+  summary: String
+  source: String
+  category: String
+  bannerImage: String
+  sentimentScore: Float
+  sentimentLabel: String
+}
+
