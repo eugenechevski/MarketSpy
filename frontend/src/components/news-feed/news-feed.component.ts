@@ -1,5 +1,3 @@
-import { Component } from '@angular/core';
-
 import { Component, OnInit } from '@angular/core';
 import { NewsFeedService } from '../../services/news-feed.service';
 

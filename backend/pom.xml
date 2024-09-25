@@ -29,6 +29,22 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+  			<groupId>com.azure.spring</groupId>
+  			<artifactId>spring-cloud-azure-starter-keyvault</artifactId>
+		</dependency>
+		
+		<dependency>
+      		<groupId>com.azure</groupId>
+      		<artifactId>azure-security-keyvault-secrets</artifactId>
+      		<version>4.2.3</version>
+    	</dependency>
+
+    	<dependency>
+    	  <groupId>com.azure</groupId>
+    	  <artifactId>azure-identity</artifactId>
+    	  <version>1.13.3</version>
+    	</dependency>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 		    <groupId>org.json</groupId>
