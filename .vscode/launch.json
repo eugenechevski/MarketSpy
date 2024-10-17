@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MarketSpyApplication<MarketSpy>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.eugenechevski.projects.MarketSpy.MarketSpyApplication",
+            "projectName": "MarketSpy",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
