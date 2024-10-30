@@ -1,6 +1,5 @@
 type Query {
   getMarketData(id: ID!): MarketData
-  getPortfolio(id: ID!): Portfolio
   getNewsFeed: [NewsFeed]
 }
 
@@ -9,18 +8,6 @@ type MarketData {
   name: String
   price: Float
   timestamp: String
-}
-
-type Portfolio {
-  id: ID
-  name: String
-  assets: [Asset]
-}
-
-type Asset {
-  name: String
-  quantity: Int
-  currentPrice: Float
 }
 
 type NewsFeed {
